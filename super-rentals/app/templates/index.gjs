@@ -11,9 +11,9 @@ import Rental from 'super-rentals/components/rental';
 
   <div class="rentals">
     <ul class="results">
-      <li><Rental /></li>
-      <li><Rental /></li>
-      <li><Rental /></li>
+      <li><Rental @rental={{@model}} /></li>
+      <li><Rental @rental={{@model}} /></li>
+      <li><Rental @rental={{@model}} /></li>
     </ul>
   </div>
 </template>
